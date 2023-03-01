@@ -1,3 +1,4 @@
 #!/bin/bash
-echo "This is my first script for Git"
-echo "Version in Branch2"
+echo "Bash script for Git Action demonstration"
+echo "----------------------------------------"
+echo "       Hi from Illia Ulianov!"
