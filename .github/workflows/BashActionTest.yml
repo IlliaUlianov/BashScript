@@ -27,4 +27,6 @@ jobs:
 
       # Runs the Bash Script using the runners shell
       - name: Run a one-line script
-        run: bash SimpleScript.sh
+        run: |
+           ls "${GITHUB_WORKSPACE}/.github/"
+           "${GITHUB_WORKSPACE}/.github/SimpleScript.sh"
