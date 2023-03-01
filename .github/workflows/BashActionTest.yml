@@ -28,5 +28,5 @@ jobs:
       # Runs the Bash Script using the runners shell
       - name: Run a several-line script
         run: |
-           ls "${GITHUB_WORKSPACE}/.github/"
-           bash path/SimpleScript.sh
+           echo ${GITHUB_WORKSPACE}
+           bash "${GITHUB_WORKSPACE}/.github//SimpleScript.sh"
