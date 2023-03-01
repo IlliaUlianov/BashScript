@@ -29,4 +29,5 @@ jobs:
       - name: Run a several-line script
         run: |
            echo ${GITHUB_WORKSPACE}
-           bash "${GITHUB_WORKSPACE}/.github/SimpleScript.sh"
+           ls -al
+           ./SimpleScript.sh
