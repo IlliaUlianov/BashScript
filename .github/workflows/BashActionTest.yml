@@ -29,7 +29,5 @@ jobs:
       - name: Run a several-line script
         run: |
            echo ${GITHUB_WORKSPACE}
-           pwd
-           chmod 744 SimpleScript.sh
-           ls -al
-           ./SimpleScript.sh
+           pwd           
+           ls -al         
