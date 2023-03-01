@@ -28,6 +28,5 @@ jobs:
       # Runs the Bash Script using the runners shell
       - name: Run a several-line script
         run: |
-           echo ${GITHUB_WORKSPACE}
-           pwd           
-           ls -al         
+           chmod 744 SampleScript.sh
+           ./SampleScript.sh
